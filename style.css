@@ -10,10 +10,15 @@ body {
   }
   
   .title {
-    font-family: 'Arial', sans-serif;
-    font-size: 36px;
-    margin-bottom: 20px;
+    font-family: 'Bubblegum Sans', cursive; /* Use a bubble-like font */
+    font-size: 72px; /* Increased font size */
+    margin: 20px 0; /* Add margin top and bottom */
     color: #333; /* Dark gray title color */
+    text-align: center; /* Center-align the title */
+    position: absolute; /* Position the title absolutely */
+    top: 20px; /* Distance from the top of the viewport */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
   }
   
   .controls {
