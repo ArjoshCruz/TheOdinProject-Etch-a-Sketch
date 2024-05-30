@@ -10,15 +10,15 @@ body {
   }
   
   .title {
-    font-family: 'Bubblegum Sans', cursive; /* Use a bubble-like font */
-    font-size: 72px; /* Increased font size */
-    margin: 20px 0; /* Add margin top and bottom */
-    color: #333; /* Dark gray title color */
-    text-align: center; /* Center-align the title */
-    position: absolute; /* Position the title absolutely */
-    top: 20px; /* Distance from the top of the viewport */
-    left: 50%; /* Center horizontally */
-    transform: translateX(-50%); /* Center horizontally */
+    font-family: 'Bubblegum Sans', cursive; 
+    font-size: 72px; 
+    margin: 20px 0; 
+    color: #333; 
+    text-align: center; 
+    position: absolute; 
+    top: 20px; 
+    left: 50%; 
+    transform: translateX(-50%);
   }
   
   .controls {
@@ -39,25 +39,25 @@ body {
     cursor: pointer;
   }
   
-  .controls button:nth-child(1) { background-color: #333; color: #fff; } /* Black button */
-  .controls button:nth-child(2) { background-color: #6fa8dc; color: #fff; } /* Random button */
-  .controls button:nth-child(3) { background-color: #ff7f50; color: #fff; } /* Eraser button */
-  .controls button:nth-child(4) { background-color: #ff6347; color: #fff; } /* Clear button */
-  .controls button:nth-child(5) { background-color: #4caf50; color: #fff; } /* Change Grid button */
+  .controls button:nth-child(1) { background-color: #333; color: #fff; } 
+  .controls button:nth-child(2) { background-color: #6fa8dc; color: #fff; } 
+  .controls button:nth-child(3) { background-color: #ff7f50; color: #fff; } 
+  .controls button:nth-child(4) { background-color: #ff6347; color: #fff; } 
+  .controls button:nth-child(5) { background-color: #4caf50; color: #fff; } 
   
-  .controls button:hover { opacity: 0.8; } /* Button hover effect */
+  .controls button:hover { opacity: 0.8; } 
   
   #container {
     border: 1px solid black;
-    width: 500px; /* Adjust the size of the sketchpad */
-    height: 500px; /* Adjust the size of the sketchpad */
+    width: 500px; 
+    height: 500px; 
     display: grid;
-    background-color: white; /* White background for the sketchpad */
+    background-color: white; 
   }
   
   .square {
-    border: 1px solid lightgray; /* Add border to squares for grid lines */
-    background-color: white; /* Set background color to white */
+    border: 1px solid lightgray; 
+    background-color: white; 
   }
 
 
@@ -65,6 +65,6 @@ body {
     position: absolute;
     bottom: 10px;
     font-size: 12px;
-    color: #333; /* Dark gray footer color */
+    color: #333; 
   }
   
