@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('etch-bg.png'); 
+    background-size: cover;
+  }
+  
+  .title {
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333; /* Dark gray title color */
+  }
+  
+  .controls {
+    position: absolute;
+    left: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .controls button {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .controls button:nth-child(1) { background-color: #333; color: #fff; } /* Black button */
+  .controls button:nth-child(2) { background-color: #6fa8dc; color: #fff; } /* Random button */
+  .controls button:nth-child(3) { background-color: #ff7f50; color: #fff; } /* Eraser button */
+  .controls button:nth-child(4) { background-color: #ff6347; color: #fff; } /* Clear button */
+  .controls button:nth-child(5) { background-color: #4caf50; color: #fff; } /* Change Grid button */
+  
+  .controls button:hover { opacity: 0.8; } /* Button hover effect */
+  
+  #container {
+    border: 1px solid black;
+    width: 500px; /* Adjust the size of the sketchpad */
+    height: 500px; /* Adjust the size of the sketchpad */
+    display: grid;
+    background-color: white; /* White background for the sketchpad */
+  }
+  
+  .square {
+    border: 1px solid lightgray; /* Add border to squares for grid lines */
+    background-color: white; /* Set background color to white */
+  }
+
+
+.footer {
+    position: absolute;
+    bottom: 10px;
+    font-size: 12px;
+    color: #333; /* Dark gray footer color */
+  }
+  
